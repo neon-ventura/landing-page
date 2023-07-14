@@ -27,8 +27,9 @@
 body{
     background-image: url(images/pexels-matheus-oliveira-10966532.jpg);
     background-size: cover;
-    height: 99vh;
+    height: 100vh;
     width: 100vw;
+    overflow: hidden;
 }
 
 header{
