@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url(images/pexels-matheus-oliveira-10966532.jpg);
+    background-image: url(../images/pexels-matheus-oliveira-10966532.jpg);
     background-size: cover;
     height: 100vh;
     overflow: hidden;
@@ -34,6 +34,12 @@ h1{
     border: 1px solid white;
     border-radius: 10px;
     padding: 1em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.pecaAgora:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 section{
@@ -64,6 +70,12 @@ h2{
     border: 1px solid #8C8279;
     border-radius: 5px;
     padding: 1em;
+    transition: transform 0.3s ease-in-out;
+}
+
+.comprar:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 menu{
