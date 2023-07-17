@@ -2,34 +2,18 @@
     padding: 0px;
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white
+    color: white;
 }
-
-@keyframes aumentarBotao {
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(1.2);
-    }
-}
-
-@keyframes aumentarBotao2 {
-    0%{
-        transform: scale(1);
-    }
-    100%{
-        transform: scale(1.2);
-    }
-}
-
 
 body{
     background-image: url(images/pexels-matheus-oliveira-10966532.jpg);
     background-size: cover;
     height: 100vh;
-    width: 100vw;
-    overflow: hidden;
+}
+
+.container{
+    height: 75%;
+    position: relative;
 }
 
 header{
@@ -39,60 +23,63 @@ header{
 }
 
 h1{
-    font-size: 2.5em;
+    color:white ;
+    font-size: 3em;
 }
 
-.PecaAgora{
-    display: block;
-    padding: 1em;
+.pecaAgora{
+    background-color: rgba(0, 0, 0, 0);
     color: white;
-    border: 2px solid #BFB4AA;
+    border: 1px solid white;
     border-radius: 10px;
-    text-decoration: none;
-}
-
-.PecaAgora:hover{
-
-    animation-name: aumentarBotao;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+    padding: 1em;
 }
 
 section{
-    position: fixed;
+    border: 2px solid #BFB4AA;
+    border-radius: 10px;
+    padding: 2em;
+
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    
-    border-radius: 20px;
-    width: 15em;
-    padding: 1em;
 }
 
 p{
-    margin-bottom: 30px;
+    color: #BFB4AA;
+    font-weight: bolder;
 }
 
 h2{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-size: 2em;
 }
 
-section > a{
+.comprar{
+    background-color: #00060da1;
+    border: 1px solid #8C8279;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+menu{
+    height: 10vh;
+}
+
+footer{
     display: block;
-    margin-top: 40px;
-    background-color: #00060dab;
-    border-radius: 10px;
-    text-decoration: none;
-    padding: 10px;
-    width: 90px;
+    height: 25vh;
+    background-color: #00060d6a;
     text-align: center;
-
 }
 
-section > a:hover{
-    animation-name: aumentarBotao;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
+footer > img{
+    padding-top: 20px;
 }
 
+#insta{
+    padding-left: 15px;
+}
