@@ -9,12 +9,12 @@ body{
     background-image: url(images/pexels-matheus-oliveira-10966532.jpg);
     background-size: cover;
     height: 100vh;
+    overflow: hidden;
 }
 
 .container{
     height: 75%;
     position: relative;
-    overflow: hidden;
 }
 
 header{
