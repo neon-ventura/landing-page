@@ -1,0 +1,64 @@
+@media (min-width:768px) {
+    h1{
+        font-size: 4em;
+    }
+}
+
+@media(min-width:1200px){
+    body{
+        background-image: url(images/pexels-jess-bailey-designs-788946.jpg);
+    }
+
+    h1{
+        color: black;
+    }
+
+    .pecaAgora{
+        border-color: #0D0D0D;
+        color: #59554D;
+    }
+
+    section{
+        border: none;
+    }
+
+    section > p{
+        color: #59554D;
+    }
+
+    h2{
+        font-size: 3em;
+        color: black;
+    }
+
+    .comprar{
+        border: 2px solid black;
+        background-color: #0d0d0031;
+        font-weight: bolder;
+    }
+
+    p{
+        color: #0D0D00;
+    }
+
+    a{
+        text-decoration: underline black;
+    }
+
+
+    footer{
+        background-color: rgba(0, 0, 0, 0.200);
+    }
+
+    .insta{
+        content: url(images/png/instagram\ \(4\).png);
+    }
+
+    .twitter{
+        content: url(images/png/twitter\ \(1\).png);
+    }
+
+    .youtube{
+        content: url(images/png/youtube\ \(1\).png);
+    }
+}

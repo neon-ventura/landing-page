@@ -53,7 +53,7 @@ section{
     transform: translate(-50%, -50%);
 }
 
-p{
+section > p{
     color: #BFB4AA;
     font-weight: bolder;
 }
@@ -90,9 +90,12 @@ footer{
 }
 
 footer > img{
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 #insta{
-    padding-left: 15px;
+}
+
+p{
+    display: block;
 }
