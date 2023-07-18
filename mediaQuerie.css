@@ -9,6 +9,10 @@
         background-image: url(images/pexels-jess-bailey-designs-788946.jpg);
     }
 
+    .container{
+        height: 75vh;
+    }
+
     h1{
         color: black;
     }
