@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    height: 75%;
+    height: 65%;
     position: relative;
 }
 
@@ -84,7 +84,7 @@ menu{
 
 footer{
     display: block;
-    height: 25vh;
+    height: 35vh;
     background-color: #00060d6a;
     text-align: center;
 }
