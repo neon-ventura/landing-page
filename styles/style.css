@@ -46,6 +46,7 @@ section{
     border: 2px solid #BFB4AA;
     border-radius: 10px;
     padding: 2em;
+    margin-top: 30px;
 
     position: absolute;
     top: 50%;
@@ -93,9 +94,17 @@ footer > img{
     padding-top: 5px;
 }
 
-#insta{
-}
 
 p{
     display: block;
+}
+
+.credito{
+    font-weight: bolder;
+    color: red;
+}
+
+.credito > a{
+    color: yellow;
+    text-decoration: none;
 }
